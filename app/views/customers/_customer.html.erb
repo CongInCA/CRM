@@ -3,5 +3,5 @@
   <p><strong>Email:</strong> <%= customer.email_address %></p>
   <p><strong>Phone Number:</strong> <%= customer.phone_number %></p>
   <p><strong>Notes:</strong> <%= customer.notes %></p>
-  <%= image_tag customer.image, class: "customer-image", alt: "Customer Image" if customer.image.attached? %>
+  <%= image_tag customer.image, class: "customer_image", alt: "Customer Image" if customer.image.attached? %>
 </div>
